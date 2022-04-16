@@ -4,7 +4,7 @@ Metasploitable2: After logging in with msfadmin, we assign an IP address to the 
 same subnet and netmask. 
 Command: sudo ifconfig eth0 192.168.100.2 netmask 255.255.255.0
 
-3) Then login again with msfadmin and enter command: ifconfig to check if the IP is assigned.
+3) Metasploitable2: Then login again with msfadmin and enter command: ifconfig to check if the IP is assigned.
 
 4) Kali Linux: Try to ping with metasploitable2 just to check if IP has been assigned to it by using 
 the command: ping
@@ -13,12 +13,12 @@ the command: ping
 metasploitable2 i.e 192.168.100.2 and click enter. Then click on mutillidae and click on user info from
 OWASP-> SQL injection option and a login page will appear.
 
-6)Other that Kali linix and metasploitable2 we will use Burpsuite which is an indiceptive proxy which 
+6)Other than Kali linix and metasploitable2 we will use Burpsuite which is an indiceptive proxy which 
 will capture request that we will use in sqlmap to enumerate the database to check if any vulnerabilities
 are present in an application.
 Open Burpsuite and check if intercept is on. It should be on.
 
-7) Then open browser settings and change it 'manual proxy configuration'.
+7) Then in Kali Linux, open browser settings and change it 'manual proxy configuration'.
 
 8) Then go to the login page opened previously and enter some random username and password and check in 
 burpsuite if it has captured the request properly. In case it has the 'Upgrade Insecure Request' 
