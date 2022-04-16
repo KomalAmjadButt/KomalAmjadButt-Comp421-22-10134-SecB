@@ -1,6 +1,6 @@
 1) Kali Linux: ipconfig command is used to check the IP address: 192.168.100.7 and netmask:255.255.255.0
 
-Metasploitable2: After logging in with msfadmin, we assign an IP address to the machine by using the 
+2) Metasploitable2: After logging in with msfadmin, we assign an IP address to the machine by using the 
 same subnet and netmask. 
 Command: sudo ifconfig eth0 192.168.100.2 netmask 255.255.255.0
 
@@ -24,7 +24,7 @@ Open Burpsuite and check if intercept is on. It should be on.
 burpsuite if it has captured the request properly. In case it has the 'Upgrade Insecure Request' 
 should be 1.
 
-8) Save that data in a file on Desktop with the name extract.txt 
+9) Save that data in a file on Desktop with the name extract.txt 
 
 10) Kali Linux: Write command: sqlmap
 Sqlmap is an open source software that is used to detect and exploit database vulnerabilities and provides 
